@@ -7,3 +7,6 @@ short_description: "Build Faster Websites. Grav is a modern open source flat-fil
 stack: php
 pack: "**/*.*"
 dest: /public
+
+build_pipeline:
+  - bin/grav install
